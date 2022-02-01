@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+      <title>Tu Hoja de VIda</title>
+
+      <meta charset="utf-8">
+      <meta name="cuadrado" content="width=device-width, initial-scale=1">
+
+      <style>
+        body {
+          font-family: Times New Roman, serif;
+          color: "#1249de";
+
+          margin-top: 100px;
+          margin-bottom: 100px;
+          margin-right: 150px;
+          margin-left: 80px;
+        }
+
+        .titulo{
+          font-size: 70px;
+          padding-bottom: 50px;
+        }
+
+        .info_b{
+          position: relative;
+          left: 500px;
+          bottom: 360px;
+        }
+
+      </style>
+  </head>
+  <body>
+
+    <center> <h1 class="titulo">Tu hoja de vida</h1> </center>
+
+    <img src="fotos/image.jpeg"  width="345" height="345">
+
+    <div class="fotos">
+      <form>
+        <label for="MiArchivo">Selecciona un archivo:</label>
+        <input type="file" id="MiArchivo" name="MiArchivo">
+      </form>
+    </div>
+
+    <div class="info_b">
+        <form action="HojaDeVida2.html">
+            <label for="pnombre">Primer nombre:</label> <br>
+            <input type="text" id="pnombre" name="pnombre" required autocomplete="off"> <br> <br>
+
+            <label for="snombre">Segundo Nombre:</label> <br>
+            <input type="text" id="snombre" name="snombre" autocomplete="off"> <br><br>
+
+            <label for="apellido">Apelidos:</label> <br>
+            <input type="text" id="apellido" name="apellido" required autocomplete="off"> <br><br>
+
+            <label for="fnacimi">Fecha de nacimiento: </label><br>
+            <input type="date" id="fnacimi" name="fnacimi" required autocomplete="off"> <br><br>
+
+            <label for="cedula">Cedula: </label><br>
+            <input type="text" id="cedula" name="cedula" pattern="[0-9] .{4,}" autocomplete="off"> <br> <br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+
+  </body>
+</html>
