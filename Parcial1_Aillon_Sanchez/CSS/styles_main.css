@@ -1,0 +1,135 @@
+@font-face {
+  font-family: MyFont;
+  src: url(font/Hey_Comic.otf);
+}
+
+*{
+	background-color: #FFF8F3 !important;
+	font-family: MyFont !important;
+}
+
+#ScoreTable{
+	margin-top:5%;
+}
+
+th, td{
+	padding: 8px;
+
+}
+
+thead th {
+  width: 25%;
+  color: #1C6DD0;
+}
+
+
+#score_table{
+	margin-left: 40%;
+  margin-right: 30%;
+  margin-bottom:5%;
+
+	text-align: left;
+	font-size: 125%;
+
+
+
+	border: 2.5px solid black;
+  padding: 0.5rem;
+
+  border-radius:6px;
+
+}
+
+.ingrese{
+	display: inline;
+	margin-left: 40%;
+
+}
+
+
+body{
+	margin-left:5% !important;  
+	margin-right:5% !important;
+	margin-top:5% !important;
+}
+
+.titulo{
+	text-align: center;
+}
+
+#munequito{
+	display: block;
+}
+
+#horca{
+
+	width: 120%;
+	z-index: 1;
+}
+
+#horca1{
+	width: 120%;
+	z-index: 2;
+	display: none;
+}
+
+#horca2{
+	width: 120%;
+	z-index: 2;
+	display: none;
+}
+
+#horca3{
+	width: 120%;
+	z-index: 2;
+	display: none;
+}
+
+#horca4{
+	width: 120%;
+	z-index: 2;
+	display: none;
+}
+
+#horca5{
+	width: 120%;
+	z-index: 2;
+	display: none;
+}
+
+#horca6{
+	width: 120%;
+	z-index: 2;
+	display: none;
+}
+
+#boton_r{
+	display: none;
+}
+
+#erradas{
+	margin-top: 32%;
+}
+
+.Let_erradas{
+	margin-top: 50%;
+	margin-bottom: auto;
+	margin-left: 50%;
+	margin-right: auto;
+}
+
+#score{
+	margin-top: 50%;
+	margin-bottom: auto;
+	margin-left: 50%;
+	margin-right: auto;
+}
+
+#hint{
+	margin-top: 50%;
+	margin-bottom: auto;
+	margin-left: 50%;
+	margin-right: auto;
+}
+
+
