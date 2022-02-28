@@ -1,0 +1,49 @@
+*{
+	background-color: #FFF8F3;
+}
+
+body{
+	margin-left:30% ;  
+	margin-right:30% ;
+	margin-top:5% ;
+}
+
+.titulo{
+	text-align: center;
+}
+
+th, td{
+	padding: 8px;
+
+}
+
+thead th {
+  width: 25%;
+  color: #1C6DD0;
+}
+
+
+
+.score_table{
+	margin-left: auto;
+  	margin-right: auto;
+  	margin-top:20%;
+  	margin-bottom:5%;
+
+	text-align: left;
+	font-size: 125%;
+
+
+
+	border: 2.5px solid black;
+  	padding: 0.5rem;
+
+  	border-radius:6px;
+
+}
+
+.ingrese{
+	display: inline;
+	margin-left: 10rem;
+
+}
